@@ -1,0 +1,95 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: black;
+    background-image:url(image/webb.png) ;
+}
+.container  {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(226, 218, 218);
+}
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+}
+.header ul li {
+    display: inline-block;
+    /* display: flow-root; */
+    margin-top: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 4px;
+}
+
+.header a:hover{
+    background-color: rgb(39, 178, 225);
+    border-radius: 30%;
+    color: white;
+    
+}
+.hero {
+    height: 280px;
+    /* background-color: aqua; */
+    background-image: url(image/hero.jpg);
+    background-size: cover;
+    background-position: 0 -220px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+
+.content {
+    padding: 15px;
+}
+.content h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content penulis {
+     font-size: 11px;
+     margin-top: -5px;
+}
+/* .content penulis a {
+    color: salmon;
+    text-decoration: dotted;
+} */
+.penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+.content p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.footer {
+    background-color: black;
+    padding: 10px;
+}
+.footer .kopi {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+hr {
+    height: 2px;
+    border-width: 0px;
+    border-color: black;
+    background-color: blue;
+    margin-bottom: 10px;
+}
