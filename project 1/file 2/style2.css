@@ -9,7 +9,7 @@ body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
     color: black;
-    background-image:url(image/webb.png) ;
+    background-image:url(../image/webb.png) ;
 }
 .container  {
     width: 960px;
@@ -46,7 +46,7 @@ body {
 .hero {
     height: 320px;
     /* background-color: aqua; */
-    background-image: url(image/hero.jpg);
+    background-image: url(../image/hero.jpg);
     background-size: cover;
     background-position: 0 -250px;
     border-bottom: 5px solid lightskyblue;
@@ -97,7 +97,7 @@ h3 {
     padding-right: 15px;
     /* border-radius: 0%; */
     /* border: 2px solid black ; */
-    background: position 200px; 0px  0 ;
+    background: position 200px;
 }
 
 .sidebar p {
